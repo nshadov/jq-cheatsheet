@@ -1,0 +1,45 @@
+[
+ {
+  "timestamp": "2017-01-01T12:30:09Z",
+  "request_id": "11b839122",
+  "source": "1.2.3.4",
+  "country": "XX",
+  "uri": "/some/uri/1234567",
+  "tags": [
+   "XSS",
+   "DATACENTER"
+  ],
+  "user_agent": "Some User Agent /1",
+  "agent_response": 200,
+  "server_response": 200
+ },
+ {
+  "timestamp": "2017-01-01T12:30:23Z",
+  "request_id": "8b1b83912",
+  "source": "1.2.3.4",
+  "country": "XX",
+  "uri": "/some/uri/1234567",
+  "tags": [
+   "XSS",
+   "DATACENTER",
+   "BLOCKED"
+  ],
+  "user_agent": "Some User Agent /1",
+  "agent_response": 200,
+  "server_response": 200
+ },
+ {
+  "timestamp": "2017-01-01T12:30:02Z",
+  "request_id": "692868790",
+  "source": "1.2.3.4",
+  "country": "XX",
+  "uri": "/some/uri/1234567",
+  "tags": [
+   "XSS",
+   "DATACENTER"
+  ],
+  "user_agent": "Some User Agent /1",
+  "agent_response": 200,
+  "server_response": 200
+ }
+]
